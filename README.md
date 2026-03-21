@@ -18,7 +18,7 @@ Instead of relying on basic conditional logic, this engine utilizes a **Markov D
 
 ## 🛠️ Tech Stack
 * **Backend:** Python 3.11, FastAPI, Uvicorn, Pydantic
-* **AI & NLP:** Google Gemini 2.5 Flash
+* **AI & LLM:** Google Gemini 2.5 Flash
 * **DevOps:** Docker
 
 ## 📂 Project Structure
