@@ -3,12 +3,13 @@ import os
 from google import genai
 from dotenv import load_dotenv
 
+#Load gemini API key 
 load_dotenv()
-
+# Initialize LLM
 client = genai.Client(api_key= os.environ["GEMINI_API_KEY"])
 
 
-
+# Generate Human readable report using Gemini LLM
 def generate_manager_report(dispatch_plan: dict) -> dict:
     """Takes mathematical output from MDP and generates prompt for LLM"""
 
